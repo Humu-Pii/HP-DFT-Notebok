@@ -1,0 +1,509 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"  />
+    <title>HP's DFT Channel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allison&family=Chewy&family=Cookie&family=IM+Fell+English+SC&family=Lobster&family=Mountains+of+Christmas&family=Original+Surfer&family=Palette+Mosaic&family=Rancho&family=Sail&family=Satisfy&display=swap" rel="stylesheet">                   
+<link rel="icon" href="images/hp_phy_logo.png" type="image/icon type">
+</head>
+<body> 
+    <div class="container">
+        <div class="nav-wrapper">
+            <header align="center">HP-Physics Blog<br>Humaira's DFT-learning Notebook<br>MS Thesis journey with DFT </header>
+            <div class="left-side"> 
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="index.html">Home</a>
+                </div>
+                
+                <div class="nav-link-wrapper ">
+                   <a href="about.html">About</a> 
+                </div> 
+                  
+            </div>
+            <div class="right-side"> 
+               <div class="brand">  
+                <img src="images/hum.png">
+                  </div>HUMU PII</div>
+               </div>  
+            </div>
+
+            <div class="content-w">
+                <div class="content-wrapperM">
+                    <div class="two-column-wrapper" style="display:inline-block;" >
+                        <div class="profile-image-wrapp">
+                            <a href="https://physics.aps.org/articles/v13/s140"><img src="images/dft.jpg" > </a>
+                        </div>
+                        
+                        <div class="profile-content-wrapper ">
+                          <h1>
+                <p align="center">Welcome to HP's DFT world</p>
+                
+                          </h1>
+      <p align="justify">Welcome to our introduction to Density Functional Theory (DFT) simulation! DFT is a powerful computational method used in materials science, chemistry, and physics to analyze the electronic structure and properties of molecules, solids, and nanostructures. At its core, DFT simplifies the quantum mechanical problem by focusing on the electron density rather than directly solving the Schrödinger equation. This approach makes DFT highly versatile and efficient, with applications ranging from predicting material properties to studying chemical reactions and nanoscale phenomena. Throughout this series, we'll explore the fundamentals of DFT, its practical implementation, and its diverse applications. Whether you're a novice or an expert, join us on this journey through the fascinating world of Density Functional Theory simulation!</p>
+                          <hr>
+                          <p align="justify"><font size="+7">T</font>oday is 9 July, 2023. <br> <font size="+17" color="coral"><h1>Density functional theory:</h1></font>
+                            <hr><font size="+1.8" color="blue"> Density functional theory (DFT) is a quantum-mechanical atomistic simulation method to compute a wide variety of properties of almost any kind of atomic system: molecules, crystals, surfaces, and even electronic devices when combined with non-equilibrium Green's functions (NEGF).[1]  </font> </p>
+
+  <p align="justify"><font size="+3">INTRODUCTION</font>
+      <br>DFT belongs to the family of first principles (ab initio) methods, so named because they can predict material properties for unknown systems without any experimental input. Among these, DFT has earned popularity due to the relatively low computational effort required.[1]<br>
+                               
+      Using this theory, the properties of a many-electron system can be determined by using functionals, i.e. functions of another function. In the case of DFT, these are functionals of the spatially dependent electron density. (Electronic density is the measure of the probability of an electron being present at an infinitesimal element of space surrounding any given point. It is a scalar quantity depending upon three spatial variables and is typically denoted as either p(r)or n(r). The density is
+    determined, through definition, by the normalised N-electron wavefunction which
+    itself depends upon variables ( spatial and spin coordinates). Conversely, the
+    density determines the wave function modulo up to a phase factor, providing the
+    formal foundation of density functional theory. According to quantum mechanics,
+due to the uncertainty principle on an atomic scale the exact location of an electron cannot be predicted, only the probability of its being at a given position; therefore electrons in atoms and molecules act as if they are "smeared out" in space. For one-electron systems, the electron density at any point is proportional to the square magnitude of the wavefunction.)
+
+DFT is among the most popular and versatile methods available in condensed-
+matter physics, computational physics, and computational chemistry.
+<br><iframe width="560" height="315" src="https://www.youtube.com/embed/luaeflpWvpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
+<br>N.B.- For more lectures given by my Superviser<a href="https://drive.google.com/drive/folders/1o6g39RDCDxfFBLyG7M6nhzIrRIQdaSue?usp=sharing">(Reference)</a></p> 
+<div class="cont">
+    <div><header><font size="+2" color="red">Workflow</font></header>
+        <font size="+7">T</font>oday is 10 July, 2023</p>
+        <h1>Projects that I've done:</h1>
+        <h3><span><font size="+7">M</font>aterials Explorer study and analysis!</span></h3>
+    <h3>Please click on the images to see & go through the following materials' investigations.</h3>
+    </div>
+        <div class="portfolio-items">
+
+            <div class="portfolio-item">
+                <div class="portfolio-img-background" style="background-image:url(images/MoS2.png)"></div>
+            
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        <a href="https://drive.google.com/file/d/1EQS-SE7Hqt-IEzzb1bK_TFZA8844q2Nl/view?usp=sharing" ><img src="images/info.png"></a>
+                    </div>
+
+                    <div class="subtitle">
+                       MoS2
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-img-background" style="background-image:url(images/EuPb.png)"></div>
+            
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        <a href="https://drive.google.com/file/d/1KXyTtPKM3vBNYg8D4XCNhIR1xGYqyayj/view?usp=drive_link" ><img src="images/info.png"></a>
+                    </div>
+
+                    <div class="subtitle">
+                        EuPb 
+                    </div>
+                </div>
+             </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img-background" style="background-image:url(images/csps3.png)"></div>
+            
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        <a href="https://drive.google.com/file/d/1Zcq0Sp5W1UPcFwPk-RQuwdlyVou3_mDM/view?usp=drive_link" ><img src="images/info.png"></a>
+                    </div>
+
+                    <div class="subtitle">
+                      CsPS3 analysis
+                    </div>
+                </div>
+             </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img-background" style="background-image:url(images/Fe.png)"></div>
+            
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        <a href="https://drive.google.com/file/d/1alnAc9xQHZfC4nqGaIzqblXh9pm05jXq/view?usp=drive_link" ><img src="images/info.png"></a>
+                    </div>
+
+                    <div class="subtitle">
+                        Fe crystal
+                    </div>
+                </div>
+             </div>
+
+             <div class="portfolio-item">
+                <div class="portfolio-img-background" style="background-image:url(images/SrNiO3.png)"></div>
+            
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        <a href="https://drive.google.com/file/d/1Co8mxKOGndqImeKX-b-X_kFAMnCF1Cja/view?usp=drive_link" ><img src="images/info.png"></a>
+                    </div>
+            
+                    <div class="subtitle">
+                        SrNiO3
+                    </div>
+                </div>
+             </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-img-background" style="background-image:url(images/Mn.png)"></div>
+            
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        <a href="https://drive.google.com/file/d/1_6FVxaKy8d6QTpFrdRJgnHGjviY3ojRU/view?usp=drive_link" ><img src="images/info.png"></a>
+                    </div>
+
+                    <div class="subtitle">
+                    Mn crystal
+                    </div>
+                </div>
+             </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img-background" style="background-image:url(images/NbTe2.png)"></div>
+            
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        <a href="https://drive.google.com/file/d/13AkeiiT2Aomn3Pmo5gN2O4v8gmH6t6_W/view?usp=drive_link" ><img src="images/info.png"></a>
+                    </div>
+
+                    <div class="subtitle">
+                       NbTe2
+                    </div>
+                </div>
+             </div>
+             
+            <div class="portfolio-item">
+                <div class="portfolio-img-background" style="background-image:url(images/Ni.png)"></div>
+            
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        <a href="https://drive.google.com/file/d/1dmkcMbb-hozyTWIfs6PxizL60-5jsk_O/view?usp=drive_link" ><img src="images/info.png"></a>
+                    </div>
+
+                    <div class="subtitle">
+                        Ni analysis
+                    </div>
+                </div>
+             </div>
+             
+            <div class="portfolio-item">
+            <div class="portfolio-img-background" style="background-image:url(images/Pu.png)"></div>
+        
+            <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                    <a href="https://drive.google.com/file/d/1aNrzY3vgval_3q6yFJbyIJBZglHO3aJn/view?usp=drive_link" ><img src="images/info.png"></a>
+                </div>
+
+                <div class="subtitle">
+                   Pu crystal
+                </div>
+            </div>
+         </div>
+
+        <div class="portfolio-item">
+           <div class="portfolio-img-background" style="background-image:url(images/Sc.png)"></div>
+    
+        <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+                <a href="https://drive.google.com/file/d/1HMJGV3s_l3oTSifeh1mF8xonKsi0pKS1/view?usp=drive_link" ><img src="images/info.png"></a>
+            </div>
+
+            <div class="subtitle">
+                Scandium 
+            </div>
+        </div>
+     </div>
+
+    <div class="portfolio-item">
+        <div class="portfolio-img-background" style="background-image:url(images/Sm.png)"></div>
+    
+        <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+                <a href="https://drive.google.com/file/d/1DPIu8JhRzFD4qCSRBJYkZ_ao-NNmPkkw/view?usp=drive_link" ><img src="images/info.png"></a>
+            </div>
+
+            <div class="subtitle">
+               Samarium
+            </div>
+        </div>
+     </div>
+     <div class="portfolio-item">
+        <div class="portfolio-img-background" style="background-image:url(images/SmFeo3.png)"></div>
+    
+        <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+                <a href="https://drive.google.com/file/d/1X33QoiNib5JCB9HawYmVdLTiI9bgc1UA/view?usp=drive_link" ><img src="images/info.png"></a>
+            </div>
+
+            <div class="subtitle">
+                SmFeO3
+            </div>
+        </div>
+     </div>
+    
+     <div class="portfolio-item">
+    <div class="portfolio-img-background" style="background-image:url(images/SnO.png)"></div>
+
+    <div class="img-text-wrapper">
+        <div class="logo-wrapper">
+            <a href="https://drive.google.com/drive/folders/1UvfoHskpynkyHNCMXOzXTEIVJCE6BFps?usp=drive_link" ><img src="images/info.png"></a>
+        </div>
+
+        <div class="subtitle">
+            SnO
+        </div>
+    </div>
+ </div>
+
+
+
+ <div class="portfolio-item">
+    <div class="portfolio-img-background" style="background-image:url(images/ZrO2.png)"></div>
+
+    <div class="img-text-wrapper">
+        <div class="logo-wrapper">
+            <a href="https://drive.google.com/file/d/1aVTAEvF2jN0wyZxyZ1otTc_ikOTO-N5y/view?usp=drive_link" ><img src="images/info.png"></a>
+        </div>
+
+        <div class="subtitle">
+            ZrO2
+        </div>
+    </div>
+ </div>
+
+
+        </div>
+</div>
+                           
+                        <p align="justify"><font size="+2"></p>
+                    <p><font size="+2"></font>
+                        <br>
+                    <font size="+2">Ab initio for DFT analysis</font><br><p 
+            
+                    <p align="justify"><font size="+2"></font>
+          
+                    <ol>
+                        <li><a href="https://www.synopsys.com/glossary/what-is-density-functional-theory.html#2">Reference: Synonsys on DFT</a></li>
+                    <li><a href="https://www.vasp.at/info/about/">Reference: Vasp history</a></li>
+                    <li><a href="https://vaspkit.com/">Reference:Vaspkit overview</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PLHB5VxMFpHNOwiWuVaBr_7dzMdQYNFmCd&si=2auSF6PXNA18N-VG">Reference: VASPKIT video tuitorial</a> 
+    </p>
+    </div>
+    </div>
+</div></div>
+
+<hr>
+
+
+
+<div class="content-w">
+    <div class="content-wrapperM">
+        <div class="two-column-wrapper" style="display:inline-block;" >
+            <div class="profile-image-wrapp">
+                <a href="https://physics.aps.org/articles/v13/s140"><img src="images/MoS2.jpg" > </a>
+            </div>
+            
+            <div class="profile-content-wrapper ">
+              <h1>
+    
+              </h1>
+              <p align="justify"><font size="+7">T</font>oday is 11 September 2023. New Journey of thesis!<br> <font size="+17" color="coral">Water Splitting on MoS2 with doping by using DFT</font>
+    <hr><font size="+0.5" color="blue">Keywords: DFT, MoS2 monolayer, Water splitting, HER(Hydrogen Evolution Reaction), OER(Oxygen Evolution Reaction), MEP(Minimum Energy Path), NEB(Nudged Elastic Band) theory.   </font> </p>
+                <p align="justify"><font size="+1", color="green">What's the experiment on?</font><br>Discover the promise of Density Functional Theory (DFT) in elucidating water splitting on MoS2 monolayers. Unravel the intricate electronic and catalytic processes driving this pivotal reaction at the atomic scale. Join us in exploring the fundamental mechanisms of water splitting on MoS2 through cutting-edge DFT simulations.
+                    <br><br>
+                   </p> 
+                <p align="justify"><font size="+3">What are the challanges?</font><br><ul>
+         <li>How to make MoS2 monolayer 2D sheet structure using vesta software in input file POSCAR? </li>
+                   
+         <li>How to do geometric optimization and band structure calculation?</li>
+    <li>After relaxatio how to find out electronic and physical properties and differences among various structures changing the relevant parameters?</li>
+
+    <li>How to substitute doping atoms in the MoS2 surface atoms and find the defect formation energy? </li>
+
+    <li>Comparing and detecting the most stable probable structure for great effiency in adsorption process for water splitting?</li>
+    
+    <li>Finding the most stable and efficient structure for adsorption and water splitting and compare the result with relevant experimental research papers.</li>
+    <li>Finally showing the utmost green renewable energy "Hydrogen prodution" by electrochemical water splitting using DFT simulation and modeling.</li>
+                </ul></p>
+                <p><font size="+2">Solution to get out of this barrier?! </font><br>From Last decades <font size="+3" color="green">Water Splitting for HER and OER </font> reactions <b><font size="4" color="maroon">are highly studied for</font></b> Green Renewable energy hydrogen production. Different catalysts work on it for greater effiency in that production. MoS2 is also working in that path for having versatile catalytic activity and electronic structure. But further analyses are needed to investicate various properties of this structure including how it'll help to generate this humble environmental safety project. </p>
+<font size="+2">Breakthrough</font><br><p align="justify"><mark>Different papers</mark></p>
+                   
+    <p align="justify"><h2>Researchers success:</h2>
+        (Pending until fulfillment)<font size="4" color="red">
+     
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </font>
+
+    
+     <p align="justify"><font size="+2" color="blue">What's the benefit??? --></font><br>
+        <font size="5" color="green"> Further analysis--></font></p>
+        <img src="images/Mos2_mine.png">
+        <a href="https://drive.google.com/file/d/16vy6OT1Pu4P2lpnjwRbBkMFM6LSYzHSG/view?usp=sharing"><br>My Paper comprehension: Synopsis</a>
+        <hr>
+        <a href="https://humu-pii.github.io/HPii_portfolio/phy_tool.html">See More: Author's notebook and Physics blog</a>
+        </p>
+        </div>
+        </div></div></div>
+    
+    
+        <hr>
+
+
+<div class="content-w">
+    <div class="content-wrapperM">
+        <div class="two-column-wrapper" style="display:inline-block;" >
+            <div class="profile-image-wrapp">
+                <a href="https://physics.aps.org/articles/v13/s140"><img src="images/graphene1.png" > </a>
+            </div>
+            
+            <div class="profile-content-wrapper ">
+              <h1>
+    
+              </h1>
+              <p align="justify"><font size="+7">T</font>oday is 15 September 2023.<br> <font size="+17" color="coral">Water Splitting on Graphene with doping by using DFT</font>
+    <hr><font size="+0.5" color="blue">Keywords: DFT, Graphene monolayer, Water splitting, HER, OER, MEP, NEB theory.   </font> </p>
+                <p align="justify"><font size="+1", color="green">I'm working both with Graphene and MoS2. Graphene is the report on which basis the same work is going on with MoS2 and further comparison will be determined.</font><br>
+                    Graphene monolayers facilitate water splitting due to their high electrical conductivity, which enables efficient electron transport during electrolysis. Additionally, the large surface area of graphene provides ample active sites for catalytic reactions to occur, enhancing the efficiency of the process. Graphene's chemical stability ensures sustained catalytic activity over time without degradation. Moreover, functionalization techniques can further enhance graphene's catalytic properties, tailoring it for specific water-splitting reactions. Overall, graphene's unique combination of properties makes it a promising material for advancing water-splitting technologies, with potential applications in renewable energy production.
+                    <br><br>
+                   </p> 
+                <p align="justify"><font size="+3">What are the challanges?</font><br><ul>
+         <li>How to make Graphene monolayer 2D sheet structure using vesta software in input file POSCAR? </li>
+                   
+         <li>How to do geometric optimization and band structure calculation?</li>
+    <li>After relaxatio how to find out electronic and physical properties and differences among various structures changing the relevant parameters?</li>
+
+    <li>How to substitute doping atoms(N) in the Graphene surface atoms and find the defect formation energy? </li>
+
+    <li>Comparing and detecting the most stable probable structure for great effiency in adsorption process for water splitting?</li>
+    
+    <li>Finding the most stable and efficient structure for adsorption and water splitting and compare the result with relevant experimental research papers.</li>
+    <li>Finally showing the utmost green renewable energy "Hydrogen prodution" by electrochemical water splitting using DFT simulation and modeling.</li>
+                </ul></p>
+                <p><font size="+2">Solution to get out of this barrier?! </font><br> <font size="+3" color="green">Water Splitting for HER and OER </font> reactions. 
+     <ul>
+            <li>Defect formation energy</li>
+            <li>Adsorption energy</li>
+            <li>Bond length and bond angle</li>
+            <li>Charge density</li>
+            <li>DOS(density of states) & PDOS</li>
+            <li>MEP and NEB</li>
+                    </ul> </p>
+<font size="+2">Breakthrough</font><br><p align="justify"><mark>Different papers</mark></p>
+                   
+    <p align="justify"><h2>Researchers success:</h2>
+        (Pending until fulfillment)<font size="4" color="red">
+     
+        <!--<ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>-->
+    </font>
+
+    
+     <p align="justify"><font size="+2" color="blue">What's the benefit??? --></font><br>
+        <font size="5" color="green"> Further analysis--></font></p>
+        <img src="images/graphene doping.jpg">
+        <a href="https://drive.google.com/file/d/1iMu6RtqupaVC2JrasqSo15M0vR3LqHTC/view"><br>My Paper comprehension: Synopsis</a>
+        <hr>
+         </p>
+        </div>
+        </div></div></div>
+    
+    
+        <hr>
+  
+<br>
+<div class="content-w">
+<div class="content-wrapperMMM">
+    <div class="two-column-wrapper"style="display:inline-block;">
+        <div class="profile-image-wrapp">
+                        
+            <img src="images/vasp+vaspkit.jpg">
+            
+        </div>
+       
+        <div class="profile-content-wrapper">
+            <p>  <font size="+7">i</font>t's 30 October, 2023</p>
+ <div><h1>Vasp and Vaspkit</h1>
+    <p align="justify">
+        <b>Definition: </b>The Vienna Ab initio Simulation Package (VASP) is a computer program for atomic scale materials modelling, e.g. electronic structure calculations and quantum-mechanical molecular dynamics, from first principles.
+<br>
+        I know its very zigzag definition, so 1st let's make it simple... Like why we need it?
+        <br><br>
+        <b>Behind the scene: </b>
+        <mark>VASP computes an approximate solution to the many-body Schrödinger equation, either within density functional theory (DFT), solving the Kohn-Sham equations, or within the Hartree-Fock (HF) approximation, solving the Roothaan equations. Hybrid functionals that mix the Hartree-Fock approach with density functional theory are implemented as well.</mark>[2]
+        <br>
+        <b>Uses:</b>
+        <br>1. Functionals(LDA, GGAs, metaGGAs, Hartree-Fock, Hartree-Fock/DFT hybrids),<br> 2.Structure relaxation  <br>3.Molecular dynamics  <br>4.Magnetism  <br>5. Green's function methods<br>6.First derivatives<br>7.Linear response to ionic displacements<br> 8.Linear response to electric fieldsLinear response to electric fields<br>9. Optical properties<br><br>
+       
+        <b>Funamental Idea of Vaspkit: </b>VASPKIT aims at providing a powerful and user-friendly interface to perform high throughput analysis of various material properties from the raw calculated data using the widely-used VASP code. The program can be conveniently run under either the interactive user interface or command line mode.[3]<br>
+<br>
+<br>1. Structural Utilities:
+<ol><li> VASP Input-Files Generator</li>
+<li>Mechanical Properties</li>
+<li> K-Path for Band-Structure </li>
+<li>Structure Editor</li>
+and so on...
+</ol><br> 
+2.Electronic Utilities:
+<ol>
+    <li>Density-of-States </li>
+    <li>Band-Structure</li>
+    <li> 3D Band-Structure</li>
+    <li>Hybrid-DFT Band-Structure</li>
+    <li>Fermi-Surface</li>
+    <li>Charge-Density Analysis </li>
+    <li>Magnetic Properties</li>
+    <li>Wave-Function Analysis </li>
+    <li>Spin-Texture</li>
+    <li>Transport Properties</li>
+    and so on...
+</ol> <br>3.Misc Utilities:
+  <br><ol>
+    <li>Optical Properties</li>
+    <li>Molecular-Dynamics Kit</li>
+    <li>Semiconductor Kit</li>
+    <li>2D-Material Kit</li>
+  </ol><br><br>
+        <p align="justify"> <font size="+3">VASPwiki: </font><br> <img src="images/vasp_logo_alpha.png">
+            Guide to VASP (Vienna Ab initio Simulation Package)! Dive into a wealth of resources curated to enhance your understanding and proficiency in utilizing VASP for electronic structure calculations. From tutorials to troubleshooting, VASPWiki is your go-to platform for mastering the intricacies of computational materials science.
+            </p>
+            <refence><a href="https://www.vasp.at/wiki/index.php/Welcome">Reference</a></refence>
+    </p><div style="float: left; margin: 0 15px 5px 0;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wneTK1LenVM?si=BKtF0x-Gc3zoT5Xm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div><b>Advantage: </b><p align="justify"> <font size="+1">
+       
+        <ul>
+            <li> Efficient Post-processing: VASPkit streamlines the post-processing of VASP output files, expediting the analysis of DFT simulation results.</li>
+<li>Enhanced Analysis Capabilities: It offers a wide range of functionalities tailored for material analyses, allowing for in-depth examination of electronic structure data and properties.</li>
+       <li>Versatile Toolkit: Researchers can leverage VASPkit's diverse tools to extract valuable insights into the behavior of materials under various conditions and environments.</li>
+       <li>User-friendly Interface: Its intuitive interface makes it accessible to users of all levels, from novice researchers to seasoned experts, facilitating efficient data interpretation.</li>
+       <li> 
+        Empowering Research: By simplifying the analysis process and providing comprehensive tools, VASPkit empowers researchers to derive meaningful conclusions and advance their understanding of materials through DFT simulations.</li> 
+       
+    </ul>
+    </font><br><br>
+    <p>For Research supports:</p>
+<a href="https://next-gen.materialsproject.org/materials"> Materials projects</a></p>
+    <a href="https://scholar.google.com/">Google scholar</a>
+    
+</div>
+</div></div></div></div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+  
+</body>
+</html>
